@@ -382,17 +382,12 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.offer-item:hover .overlay {
-    bottom: 0;
-}
 
 .offer-item:hover {
-    opacity: 1;
-    
-}
-
-.offer-item:hover .overlay {
-    transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .image-container{
@@ -446,6 +441,24 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   color: #f4f4fd;
   height: 312px;
   padding: 100px 0;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline,
+}
+
+.footer-main{
+    margin-right: 120px
+}
+
+.icon-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
 }
 
 .link-logo-f {
